@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Didital clock</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: url(flower.jpg);
+            color: white;
+            font-family: sans-serif;
+            background-size: cover;
+
+
+        }
+        .clock{
+
+            display: flex;
+            flex-direction: row;
+
+        }
+        .clock div{
+
+            margin: 5px;
+
+        }
+        .clock span{
+            height: 100px;
+            width: 80px;
+            display: flex;
+            background-color: rgb(106, 138, 193);
+            opacity: .7;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+
+        }
+        .clock text{
+            opacity: 1;
+            background-color: rgb(230, 102, 221);
+            height: 10px;
+            font-size: 13px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+
+    
+  <h2>Digital clock</h2>  
+  <div class="clock">
+    <div>
+       <span id="hours">00</span>
+       <span class="text">hours</span>
+    </div>
+    <div>
+        <span class="id">00</span>
+    <span class="class">minutes</span>
+</div>
+<div>
+    <span class="id">00</span>
+<span class="class">seconds</span>
+</div>
+<div><span id="ampm">PM</span>
+</div>
+
+
+  </div>
+</body>
+</html>
